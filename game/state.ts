@@ -1,4 +1,4 @@
-import { GameState } from "@/types/game";
+import { GameState } from "../types/game";
 
 export const defaultState: GameState = {
   cash: 100000,
