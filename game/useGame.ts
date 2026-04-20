@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { GameState } from "@/types/game";
+import { GameState } from "../types/game";
 import { nextWeek } from "./engine";
 import { saveGame, loadGame } from "./storage";
 import { defaultState } from "./state";
